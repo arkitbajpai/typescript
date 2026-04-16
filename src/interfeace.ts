@@ -32,6 +32,7 @@ class Chai implements Cupsize{
 }
 
 /// this is the union   examples of types
+// this is called the litteral types
 type TeaType ="masala" |"ginger" |"lemon";
 
 function orderChai(t:TeaType){
@@ -49,3 +50,14 @@ const cup: MasalaChai={
     teaLeaves:2,
     masala:2
 }
+type Config={
+    readonly appName :string,
+    version: number
+}
+
+const cfg: Config={
+    appName :"arkit",
+    version:2
+}
+
+// cig.appName="CHaicodde" ---- we cannot do that as the value is readonly 
