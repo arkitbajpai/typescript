@@ -35,3 +35,21 @@ function createChai(order:{
 }):number{
     return 4;
 }
+
+// tuples 
+const chaiItem:[string, number]= ["masala", 25]
+const chaiItems:[name:string, price: number]= ["masala", 25]
+
+//enum 
+
+enum CupSzie{
+    SMALL,MEDIUM,
+    LARGE
+}
+const size= CupSzie.LARGE;
+
+enum  Status{
+    PENDING=100,
+    SERVED,// 101
+    CANCELLED//102
+}
