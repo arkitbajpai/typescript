@@ -15,3 +15,9 @@ function pair<A,B>(a:A,b:B):[A,B]{
 }
 
 pair("masala",20)
+
+
+interface APiPromise<T>{
+    status:number;
+    data : T
+}
