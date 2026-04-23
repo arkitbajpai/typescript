@@ -37,3 +37,15 @@ const rating: ratings={
     masala:4.5,
     ginger:4.5
 }
+
+
+interface User {
+    name:string
+}
+
+interface User{
+    age: number
+}
+
+// we can create the multiple interfaces so that 
+// they get combine and we have to satisfiy all the things 
