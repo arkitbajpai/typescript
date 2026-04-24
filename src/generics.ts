@@ -7,7 +7,7 @@ return [item]
 
 
 
-wrapInArray("masala");
+wrapInArray("masala tea");
 wrapInArray(42)
 
 function pair<A,B>(a:A,b:B):[A,B]{
