@@ -31,7 +31,7 @@ try{}catch(error){
     if(error instanceof Error){
         console.log(error)
     }
-    console.log("Error messsage",error);
+    console.log("Error messsage  sorry ",error);
     
 }
 
